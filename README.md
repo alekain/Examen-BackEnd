@@ -1,6 +1,6 @@
-Primero, crea una base de datos en PostgreSQL y una tabla para almacenar los datos de los usuarios. Puedes utilizar el siguiente script SQL como referencia.
+Primero se crea una base de datos en PostgreSQL y una tabla para almacenar los datos de los usuarios. 
 
-A continuación, se crea un directorio el proyecto y configura el entorno virtual de Python.
+A continuación, se crea un directorio para el proyecto y se configura el entorno virtual de Python.
 
 Luego se instala Flask y las bibliotecas necesarias.
 
