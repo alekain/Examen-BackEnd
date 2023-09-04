@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://FamiliaSuperman:aletron@localhost:4000/api_users'  # Actualiza con tus credenciales
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://FamiliaSuperman:aletron@localhost:4000/api_users'  # Actualiza credenciales
 db = SQLAlchemy(app)
 
 class Usuario(db.Model):
@@ -68,8 +68,8 @@ def estado_api():
     return jsonify({
         'nameSystem': 'api-users',
         'version': '0.0.1',
-        'developer': 'Juan Carlos Condori Machicado',
-        'email': 'juanc.com@gmail.com'
+        'developer': 'Alejandro Heredia Gonzales',
+        'email': 'aleherediag@hotmail.com'
     })
 
 if __name__ == '__main__':
